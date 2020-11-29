@@ -1,1 +1,1155 @@
-772380008000800080006084
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+    
+    <head>
+
+        <meta name="viewport" content="width=device-width , initial-scale=1.0" charset="UTF-8">
+        <link rel="stylesheet" href="/static/stylesheet.css">
+        <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.typekit.net/inv5iwl.css">
+        <link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="../static/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link href='../static/packages/core/main.css' rel='stylesheet'/>
+        <link href='../static/packages/daygrid/main.css' rel='stylesheet'/>
+        <link href='../static/packages/timegrid/main.css' rel='stylesheet'/>
+        <link href='../static/packages/interaction/main.js' rel='script'/>
+        <link href='../static/packages/bootstrap/main.css' rel='stylesheet'/>
+<script src="https://cdn.ckeditor.com/4.15.0/full/ckeditor.js"></script>
+
+
+
+        <title>100CHINAGUIDE</title>
+        <meta property="og:url" content="https://www.100chinaguide.com"/>
+        <meta property="og:type" content="website"/>
+        <meta id="fb-share-title" property="og:title" content=""/>
+        <meta id="fb-share-description" property="og:description" content=""/>
+        <meta id="fb-share-img" property="og:image" content=""/>
+        <link rel="stylesheet" href="https://cdn.bootcss.com/social-share.js/1.0.16/css/share.min.css" type="text/css">
+
+            <script src="https://cdn.bootcss.com/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+    </head>
+
+
+
+
+
+    <body class="">
+
+
+    
+    <div class="top-navigation">
+        <nav class="top-nav navbar shadow-sm  navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand-xl  navbar-light">
+            <a class="navbar-brand" href="#"><img src="../static/logo.svg" alt="" width="80"></a>
+            <img class="corner-design" src="../static/corner-design.png" alt="">
+
+            <button class="navbar-toggler" type="button" data-target="#navbarTogglerDemo01" data-toggle="collapse"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav  nav-text mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item nav-tag ">
+                        <a class="nav-link " href="/">HOME </a>
+                    </li>
+
+                    <li class="nav-item nav-tag">
+                        <a class="nav-link " href="/live">LIVE</a>
+                    </li>
+
+
+                    <li class="nav-item nav-tag">
+                        <form action="">
+                            <input type="search" id="nav-search">
+                        </form>
+                    </li>
+                    <li class="nav-item nav-tag">
+                        <a class="nav-link" href="/signIn">LOGIN</a>
+                    </li>
+                    <li class="nav-item nav-tag">
+                        <a class="nav-link" href="/login"><img src="../static/LOG%20IN.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
+
+
+
+
+
+    
+    <div class="mobile-navigation">
+        <div class="">
+            <div class="flash-msg shadow-lg p-5"></div>
+        </div>
+        <div class="navbar  shadow-sm navbar-expand-md navbar-expand-xl navbar-expand-sm navbar-expand">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            <div class="text-center mx-auto">
+                <form class=" text-center" id="search-form" action="" method="POST">
+
+                    <fieldset>
+                        
+
+                        <input class="search-form" id="search" name="search" type="text" value=""> <br>
+
+
+                    </fieldset>
+                </form>
+
+            </div>
+            <div class="navbar-brand text-center mx-auto">
+
+                <img class="logo" src="../static/logo.svg" alt=""></div>
+            <div class="left-icons">
+                <img class="click-search" src="../static/search-icon.svg" alt="">
+                <img src="../static/filter.svg" alt="">
+                
+                    <img class="cart" data-href="" src="../static/cart.svg" onclick="openLeftNav()" alt="">
+
+                
+            </div>
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            
+                <div class="text-center text-light ">
+                    <p class="align-self-center">Log in on the "Profile" page</p>
+                </div>
+            
+        </div>
+
+        <div id="leftSidenav" class="left-sidenav">
+            <a class="closebtn" onclick="closeLeftNav()">&times;</a>
+            <div class="cart-list p-3">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <li class="test"></li>
+    <div id="currentUser" username="" propic=""></div>
+
+    
+        <span></span>
+    
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+    <!-- Trigger the modal with a button -->
+
+    
+        <div class="">
+            <ul class="upload-list">
+
+
+            </ul>
+
+        </div>
+    
+
+
+    </body>
+
+
+
+
+
+<div id="main">
+    
+
+        <div class="profile mt-3">
+
+            <div class="row user-profile-info no-gutters">
+                <div class="col-2 no-gutters">
+
+                    <div data-href="" class="click-pro-pic user-profile-pic-wrapper">
+                        <span><img class="profilepic" src="" alt=""></span>
+                    </div>
+                </div>
+                <div class="col-3 no-gutters text-center">
+                    <div id="user-followers"></div>
+
+                    <span>Followers</span>
+                </div>
+                <div class="col-3 no-gutters text-center">
+                    <div id="user-videos"></div>
+                    <span>Videos</span>
+
+                </div>
+                <div class="col-3 no-gutters text-center">
+                    <div id="user-live-sessions">
+                    </div>
+                    <span>Live Sessions</span>
+
+                </div>
+
+            </div>
+            <div id="">
+                <div id="user-username"></div>
+
+            </div>
+
+            <div class="profile-btn text-center">
+      <span>
+           <a id="follow" data-href=""> <button type="button" id="follow-btn" class="fixed-btn">Follow</button></a>
+           <a id="unfollow" data-href=""><button type="button" id="unfollow-btn" class="fixed-btn">Unfollow</button></a>
+
+      </span>
+                <span>
+
+
+
+           <a id="" data-href=""> <button type="button" data-href="" id="book-schedule-btn" class="fixed-btn">Book Schedule</button></a>
+
+     </span>
+
+            </div>
+            <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="bio-tab" data-toggle="tab" href="#bio" role="tab" aria-controls="bio"
+                       aria-selected="true">BIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contents-tab" data-toggle="tab" href="#contents" role="tab"
+                       aria-controls="contents" aria-selected="false">CONTENTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="reviews-tab" data-toggle="tab" href="#reviews" role="tab"
+                       aria-controls="reviews" aria-selected="false">REVIEWS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="stats-tab" data-toggle="tab" href="#stats" role="tab" aria-controls="stats"
+                       aria-selected="false">STATS</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active p-3" id="bio" role="tabpanel" aria-labelledby="bio-tab">
+                    <p>Introduction</p>
+                    <span id="user-introduction"></span>
+                    <p id="video-description"></p>
+                </div>
+                <div class="tab-pane fade" id="contents" role="tabpanel" aria-labelledby="contents-tab"></div>
+                <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+
+                </div>
+                <div class="tab-pane fade" id="stats" role="tabpanel" aria-labelledby="stats-tab"></div>
+            </div>
+        </div>
+
+
+
+        <div></div>
+        <div class="schedule p-3 text-center">
+            <div class="calendar-container text-center">
+                <form method="POST" data-href="/getUserSchedule?user_id="
+                      id="schedule-form" action="">
+                    <input id="csrf-token" type="hidden" name="csrf_token" value="IjJkYzIzYTgwYTE3NDBhMmRhYmQ5ZjIyM2Q5YzI5YjE3MDgxMGRmNjki.X8PooA.7fupOqv96xiU-nhUB1se3EDYNK8"/>
+                    <input type="submit" class="mt-3 mx-auto fixed-btn schedule-btn text-light">
+                </form>
+
+            </div>
+            <br>
+            <br>
+            <br>
+
+        </div>
+
+        <div class="update-schedule p-3 text-center">
+            <div class="update-calendar-container">
+                <input type="submit" class="fixed-btn update-schedule-btn text-light">
+            </div>
+
+        </div>
+
+        <div id="create-course">
+
+            <div class="p-3" id="course-upload">
+                <form class="form-upload text-center" id="course" action="" method="POST" enctype="multipart/form-data">
+
+                    <fieldset>
+                        <input id="upload_description" name="upload_description" type="hidden" value="">
+
+                        <label for="upload_title">Title</label> <br>
+                        <input class="input-box-border border border-top-0 border-left-0 border-right-0" id="upload_title" name="upload_title" type="text" value="">
+
+                        <br>
+
+                        <label for="upload_price">Price</label> <br>
+                        <input class="input-box-border border border-top-0 border-left-0 border-right-0" id="upload_price" name="upload_price" type="text" value="">
+                        <br><small>Price in RMB</small><br>
+                        <small>Priced courses will be reviewed before being posted.</small>
+                        <br>
+
+                        <label for="upload_category">Category</label> <br>
+                        <select class="input-box-border border border-top-0 border-left-0 border-right-0" id="upload_category" name="upload_category"><option value="Mandarin">Mandarin</option><option value="Communication skills">Communication skills</option><option value="Academics">Academics</option><option value="Visa">Visa</option><option value="Living">Living</option><option value="Talent policy">Talent policy</option><option value="Finance &amp; Law">Finance &amp; Law</option><option value="Entrepreneur">Entrepreneur</option><option value="Others">Others</option></select>
+                        <br>
+                        <br>
+
+                        <label for="upload_description">Series Summary</label> <br>
+                        <input class="description-field input-box-border border border-top-0 border-left-0 border-right-0" id="upload_description" name="upload_description" type="hidden" value="">
+                        <br>
+
+                        <div class="form-editor">
+
+                        </div>
+
+
+                        <div class="">
+                            <label for="upload_fileName">Upload File</label>
+                            <input id="upload_fileName" name="upload_fileName" required type="file"><br>
+                            <small>Upload an mp4 or mp3 file with a max size of 180MB</small>
+                            <br><br>
+
+                            <label for="upload_coverImage">Cover Image</label>
+                            <input id="upload_coverImage" name="upload_coverImage" type="file"><br>
+
+                        </div>
+                        <br>
+
+                        <input class="fixed-btn text-light" id="upload_submit" name="upload_submit" type="submit" value="Submit">
+
+                        <button class="border-btn text-center">Submitting</button>
+
+                    </fieldset>
+                </form>
+                <br>
+                <br>
+                <br>
+            </div>
+
+            <div class="p-3" id="create-series">
+                <card class="card shadow-lg w-100">
+                    <card class="">
+                        <form id="series-course" class="form-upload text-left" action="" method="POST"
+                              enctype="multipart/form-data">
+                            <fieldset>
+                                <input id="series_description" name="series_description" type="hidden" value="">
+
+                                <div class="series-div">
+                                    <h5><strong>Series Info</strong></h5>
+                                    <label for="series_title">Title</label><br>
+                                    <input class="input-box-border border border-top-0 border-left-0 border-right-0" id="series_title" name="series_title" type="text" value=""><br>
+                                    <label for="series_category">Category</label>
+                                    <select class="input-box-border border border-top-0 border-left-0 border-right-0" id="series_category" name="series_category"><option value="Mandarin">Mandarin</option><option value="Communication skills">Communication skills</option><option value="Academics">Academics</option><option value="Visa">Visa</option><option value="Living">Living</option><option value="Talent policy">Talent policy</option><option value="Finance &amp; Law">Finance &amp; Law</option><option value="Entrepreneur">Entrepreneur</option><option value="Others">Others</option></select>
+
+                                    <br>
+                                    <label for="series_price">Price</label> <small>Price in RMB</small><br>
+                                    <input class="input-box-border border border-top-0 border-left-0 border-right-0" id="series_price" name="series_price" type="text" value="">
+                                    <br>
+
+                                    <div class="wrapper">
+                                        <h5><strong>Episode Info</strong></h5>
+                                        <button type="button" class="subtitle">
+                                            <label for="subtitle">Subtitle</label>
+                                            <input class="input-box-border border border-top-0 border-left-0 border-right-0" id="subtitle" name="subtitle" type="text" value="">
+
+                                        </button>
+                                        <div class="content">
+
+                                            <label for="fileName">Upload File</label><br>
+                                            <input id="fileName" name="fileName" required type="file"><br>
+                                            <small>Upload mp4 or mp3 file</small>
+                                            <br>
+
+                                            <label class="mt-2" for="series_coverImage">Cover Image</label><br>
+                                            <input id="series_coverImage" name="series_coverImage" type="file"><br>
+                                            <label for="description">Episode Summary</label><br>
+
+                                            <div class="series-form-editor mt-2">
+
+                                            </div>
+                                            <br>
+                                            <input class="description-field input-box-border border border-top-0 border-left-0 border-right-0" id="description" name="description" placeholder="Description" type="hidden" value="">
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+
+                                <br>
+                                <div class="text-center">
+                                    <input class="fixed-btn  mb-3" id="series_submit" name="series_submit" type="submit" value="Submit">
+                                    <button class="border-btn">Submitting</button>
+                                </div>
+
+
+                            </fieldset>
+                        </form>
+
+                    </card>
+                </card>
+
+                <br>
+                <br>
+                <br>
+            </div>
+
+            <div class="p-3" id="create-live">
+
+                <form data-href="/getUserLive?user_id=" action=""
+                      class=" text-center session-form" method="POST">
+                    <fieldset>
+                        
+
+                        <label for="title">TITLE</label> <br>
+                        <input class="input-box-border border border-top-0 border-left-0 border-right-0" id="title" name="title" required type="text" value="">
+
+                        <br>
+                        <label for="description">DESCRIPTION</label> <br>
+                        <textarea class="description-field input-box-border border border-top-0 border-left-0 border-right-0" id="description" name="description" required>
+</textarea>
+                        <br>
+
+                        <label for="category">CATEGORY</label> <br>
+                        <select class="input-box-border border border-top-0 border-left-0 border-right-0" id="category" name="category"><option value="MANDARIN">MANDARIN</option><option value="LEGAL">LEGAL</option><option value="CAREER">CAREER</option><option value="BUSINESS">BUSINESS</option><option value="LIVING">LIVING</option></select>
+                        <br>
+                        <br>
+
+                        <div class="append-calendar"></div>
+
+                        <br>
+                        <br>
+
+                        <input class="fixed-btn text-light" id="submit" name="submit" type="submit" value="Submit">
+                    </fieldset>
+
+                </form>
+
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="p-3 upload-option">
+            <div class="card big-card shadow-lg" id="single-click">
+                <div class="card-body text-center">
+                    <h6>Single Upload</h6>
+                    <h1>&#10010</h1>
+                </div>
+            </div>
+            <div class="mt-4 card big-card shadow-lg" id="series-click">
+                <div class="card-body text-center">
+                    <h6>Series Upload</h6>
+                    <h1>&#10010</h1>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="course-update" class="p-2">
+
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <div id="live-update" class="p-2">
+            <br>
+            <br>
+            <br>
+        </div>
+
+
+        <div id="edit-live">
+            <form action="" class=" text-center " id="update-session-form" method="POST">
+                <fieldset>
+                    <input type="hidden" name="_METHOD" value="PUT"/>
+
+                    
+
+                    <label for="update_session_title">TITLE</label> <br>
+                    <input class="input-box-border border border-top-0 border-left-0 border-right-0" id="update_session_title" name="update_session_title" required type="text" value="">
+
+                    <br>
+                    <label for="update_session_description">DESCRIPTION</label> <br>
+                    <textarea class="description-field input-box-border border border-top-0 border-left-0 border-right-0" id="update_session_description" name="update_session_description" required>
+</textarea>
+                    <br>
+
+                    <label for="update_session_category">CATEGORY</label> <br>
+                    <select class="input-box-border border border-top-0 border-left-0 border-right-0" id="update_session_category" name="update_session_category"><option value="MANDARIN">MANDARIN</option><option value="LEGAL">LEGAL</option><option value="CAREER">CAREER</option><option value="BUSINESS">BUSINESS</option><option value="LIVING">LIVING</option></select>
+                    <br>
+                    <br>
+
+                    <div class="append-edit-calendar">
+
+                    </div>
+                    <br>
+
+                    <input class="fixed-btn text-light" id="update_session_submit" name="update_session_submit" type="submit" value="Update">
+                </fieldset>
+
+            </form>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div id="update-schedule">
+            <div class="row append-edit-schedule no-gutters">
+                <form method="POST" data-href="/getUserSchedule?user_id="
+                      id="update-schedule-form" action="">
+                    <input type="hidden" name="_METHOD" value="PUT"/>
+                    <input id="csrf-token" type="hidden" name="csrf_token" value="IjJkYzIzYTgwYTE3NDBhMmRhYmQ5ZjIyM2Q5YzI5YjE3MDgxMGRmNjki.X8PooA.7fupOqv96xiU-nhUB1se3EDYNK8"/>
+                    <div class="text-center mt-2">
+                        <input type="submit" class="mt-3 mx-auto fixed-btn schedule-btn text-light">
+                        <button class="border-btn text-center">Submitting</button>
+                    </div>
+                </form>
+
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="series-stats p-2">
+
+        </div>
+        <div class="bought-courses p-2">
+
+        </div>
+        <div class="live-stats p-2">
+
+        </div>
+        <div class="booked-schedule p-2">
+
+        </div>
+        <div class="booked-live p-2">
+
+        </div>
+        <div class="liked-course-list p-2">
+
+        </div>
+        <div class="schedule-stats p-2">
+
+        </div>
+        <div class="editor-source">
+            <textarea name="editor" id="editor"></textarea>
+        </div>
+        <div class="calendar-source text-center">
+
+            <input id="start-time" type="text" name="date-time" value="" class="time-input">
+            <input id="end-time" type="text" name="end-time" value="" class="time-input">
+            <div id="calendar"></div>
+
+
+        </div>
+
+        <div class="schedule-container">
+            <div class="row append-schedule no-gutters">
+
+            </div>
+        </div>
+
+
+    
+    
+
+    
+
+    
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Are you sure you want to delete?.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default yes-btn" data-dismiss="modal">Yes</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="delete-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Are you sure you want to delete?.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default yes-live-btn" data-dismiss="modal">Yes</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="delete-schedule-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Are you sure you want to delete?.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default yes-schedule-btn" data-dismiss="modal">Yes</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="book-schedule" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body append-user-schedule row">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="bookers-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="text-center">Participants</h4>
+                        <small class="text-center">Users who have booked your schedule</small>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body append-bookers row">
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="bookers-live-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="text-center">Participants</h4>
+                        <small class="text-center">Users who have booked your live</small>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body append-live-bookers row">
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="review-video-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="text-center">Video</h4>
+
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body ">
+                        <div class="thumb-wrapper ">
+                            <li>
+                                <video class="video-feed " autoplay preload="auto" video-id="" controls=""
+                                       type="video/mp4" src=""
+                                       alt=""></video>
+                            </li>
+                            <li>
+                                <div class="course-img-wrapper"><img class="course-img" loading="lazy" src="" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div id="waveform"></div>
+                                <div id="audio-file" audioFile=""></div>
+
+
+                            </li>
+                        </div>
+                        <nav id="controls" class="btn-row ">
+                            <a class="navLink " data-href=""><img class="mobile-icon" src="../static/step-backward.svg"
+                                                                  alt=""></a>
+                            <a class="navLink " id="play-btn"><img class="mobile-icon" src="../static/play.svg" alt=""></a>
+                            <a class="navLink " id="pause-btn"><img class="mobile-icon" src="../static/pause.svg"
+                                                                    alt=""></a>
+                            <a class="navLink " href=""><img class="mobile-icon" src="../static/step-forward.svg"
+                                                             alt=""></a>
+
+                        </nav>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="user-info-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="text-center">User Intro</h4>
+
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="user-introduction"></div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="episode-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="addEpisode" class="form-upload text-left" action="" method="POST"
+                              enctype="multipart/form-data">
+                            <fieldset>
+                                <input id="update_description" name="update_description" type="hidden" value="">
+
+
+                                <label for="update_subtitle">Subtitle</label>
+
+                                <input class="input-box-border border border-top-0 border-left-0 border-right-0" id="update_subtitle" name="update_subtitle" type="text" value="">
+                                <br>
+
+                                <label for="update_fileName">Upload File</label><br>
+                                <input id="update_fileName" name="update_fileName" required type="file"><br>
+
+                                <label for="update_coverImage">Cover Image</label><br>
+                                <input id="update_coverImage" name="update_coverImage" type="file"><br>
+
+                                <input class="description-field input-box-border border border-top-0 border-left-0 border-right-0" id="update_description" name="update_description" placeholder="Description" type="hidden" value="">
+                                <div class="episode-editor"></div>
+                                <br>
+                                <input class="fixed-btn" id="update_submit" name="update_submit" type="submit" value="Update">
+                            </fieldset>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div id="series-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form course-id="" class="form-upload text-center" id="series-update" action="" method="POST"
+                              enctype="multipart/form-data">
+                            <fieldset>
+                                <input type="hidden" name="_METHOD" value="PUT"/>
+                                <input id="update_series_description" name="update_series_description" type="hidden" value="">
+
+                                <label for="update_series_title">Title</label> <br>
+                                <input class="input-box-border border border-top-0 border-left-0 border-right-0" id="update_series_title" name="update_series_title" type="text" value="">
+
+                                <br>
+
+                                <label for="update_series_price">Price</label> <br>
+                                <input class="input-box-border border border-top-0 border-left-0 border-right-0" id="update_series_price" name="update_series_price" type="text" value="">
+                                <br>
+                                <input id="update_series_description" name="update_series_description" type="hidden" value="">
+
+                                <label for="update_series_category">Category</label> <br>
+                                <select class="input-box-border border border-top-0 border-left-0 border-right-0" id="update_series_category" name="update_series_category"><option value="Mandarin">Mandarin</option><option value="Communication skills">Communication skills</option><option value="Academics">Academics</option><option value="Visa">Visa</option><option value="Living">Living</option><option value="Talent policy">Talent policy</option><option value="Finance &amp; Law">Finance &amp; Law</option><option value="Entrepreneur">Entrepreneur</option><option value="Others">Others</option></select>
+                                <br>
+                                <br>
+
+                                <div class="update-series-editor">
+
+                                </div>
+
+
+                                <br>
+                                <input class="fixed-btn text-light" id="update_series_submit" name="update_series_submit" type="submit" value="Update">
+                            </fieldset>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    
+    
+    
+        <div class="share-logos mx-auto text-center p-3  shadow-lg">
+
+            <div class="fb-share-button"
+                 data-href=""
+                 data-layout="button_count">
+
+            </div>
+            <div class="social-share " data-sites="facebook,wechat,linkedin,google,twitter" data-mobile-sites="qq,facebook,wechat,linkedin,google,twitter"
+        align="left"></div>
+        </div>
+        <nav class="bot-nav shadow-lg">
+            <a class="navLink home-icon" href="/" data-href="/"><img
+                    class="mobile-icon" src="../static/home.svg" alt=""><span class="nav_text">Home</span></a>
+            <a class="navLink live" href="/live"><img class="mobile-icon" src="../static/live.svg"
+                                                                      alt=""><span class="nav_text">Live</span></a>
+            
+                <a class="navLink profile-nav" href="/userProfile"><img class="mobile-icon"
+                                                                                        src="../static/profile.svg"
+                                                                                        alt=""><span class="nav_text">Profile</span></a>
+            
+        </nav>
+
+    
+
+</div>
+
+
+
+    <script src='../static/packages/core/main.js'></script>
+    <script src='../static/packages/daygrid/main.js'></script>
+    <script src='../static/packages/timegrid/main.js'></script>
+    <script src='../static/packages/interaction/main.js'></script>
+
+    <script
+            src="/static/jquery-3.4.1.js" type="text/javascript"
+    ></script>
+        <script
+            src="/static/popper.min.js" type="text/javascript"
+    ></script>
+    <script src="../static/bootstrap/js/bootstrap.js"></script>
+    <script src="/static/jquery-3.3.1.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    <script src="/static/javascript.js" type="text/javascript"></script>
+    <script src="/static/howler.js" type="text/javascript"></script>
+
+    <script src="https://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+    <script>
+
+        CKEDITOR.replace( 'editor' );
+
+        $('form#series-course').on('submit', function (event) {
+            var csrf_token = $('#csrf_token').attr('value');
+            
+            
+            $.ajax({
+                beforeSend: function (xhr, settings) {
+                    if (!/^(GET|HEAD|OPTIONS|TRACE)$/i.test(settings.type) && !this.crossDomain) {
+                        xhr.setRequestHeader("X-CSRFToken", csrf_token);
+                        $('.loader').css('display', 'block')
+                        $('.border-btn').css('display', 'block')
+                        $('#series_submit').css('display', 'none')
+                    }
+                }, enctype: 'multipart/form-data',
+                data: new FormData(this),
+                type: 'POST',
+                url: '/createcourse?status=series',
+                processData: false,
+                contentType: false,
+
+                error: function (error) {
+
+                    popover(error, 'success')
+                },
+                complete: function () {
+                    $('.loader').css('display', 'none')
+
+                }
+
+            })
+                .done(function (data) {
+
+                    popover(data, 'success')
+                    pageRedirect('/')
+                    $('.border-btn').css('display', 'none')
+                    $('#series_submit').css('display', 'block')
+
+                });
+
+            event.preventDefault();
+
+        });
+        $('form#addEpisode').on('submit', function (event) {
+            var csrf_token = $('#csrf_token').attr('value');
+            
+            
+            $.ajax({
+                beforeSend: function (xhr, settings) {
+                    if (!/^(GET|HEAD|OPTIONS|TRACE)$/i.test(settings.type) && !this.crossDomain) {
+                        xhr.setRequestHeader("X-CSRFToken", csrf_token);
+                        $('.loader').css('display', 'block')
+                        $('.border-btn').css('display', 'block')
+                        $('#update_submit').css('display', 'none')
+                    }
+                }, enctype: 'multipart/form-data',
+                data: new FormData(this),
+                type: 'POST',
+                url: $('.add-ep-btn').attr('data-href'),
+                processData: false,
+                contentType: false,
+
+                error: function (error) {
+
+                    popover(error, 'success')
+                },
+                complete: function () {
+                    $('.loader').css('display', 'none')
+
+                }
+
+            })
+                .done(function (data) {
+
+                    popover(data, 'success')
+                    pageRedirect('/')
+                    $('.border-btn').css('display', 'none')
+                    $('#update_submit').css('display', 'block')
+
+                });
+
+            event.preventDefault();
+
+        });
+
+        $('form#course').on('submit', function (event) {
+            var csrf_token = $('#csrf_token').attr('value');
+            // Populate hidden form on submit
+            
+            
+
+
+            $.ajax({
+                beforeSend: function (xhr, settings) {
+                    if (!/^(GET|HEAD|OPTIONS|TRACE)$/i.test(settings.type) && !this.crossDomain) {
+                        xhr.setRequestHeader("X-CSRFToken", csrf_token);
+                        $('.loader').css('display', 'block')
+                        $('.border-btn').css('display', 'block')
+                        $('#upload_submit').css('display', 'none')
+                    }
+                }, enctype: 'multipart/form-data',
+                data: new FormData(this),
+                type: 'POST',
+                url: '/createcourse?status=single',
+                processData: false,
+                contentType: false,
+
+                error: function (error) {
+                    popover('Error uploading your File', 'error')
+
+                },
+                complete: function () {
+                    pageRedirect('/')
+                    $('.loader').css('display', 'none')
+                    $('.border-btn').css('display', 'none')
+                    $('#upload_submit').css('display', 'block')
+
+                },
+
+            })
+                .done(function (data) {
+
+                    $('.loader').css('display', 'none')
+                    popover(data, 'success')
+
+
+                });
+
+            event.preventDefault();
+
+        });
+        $('form#series-update').on('submit', function (event) {
+            var csrf_token = $('#csrf_token').attr('value');
+            
+            
+
+
+            $.ajax({
+                beforeSend: function (xhr, settings) {
+                    if (!/^(GET|HEAD|OPTIONS|TRACE)$/i.test(settings.type) && !this.crossDomain) {
+                        xhr.setRequestHeader("X-CSRFToken", csrf_token);
+                    }
+                    $('.loader').css('display', 'block')
+                },
+                enctype: 'multipart/form-data',
+                data: new FormData(this),
+                type: 'PUT',
+                url: '/editSeries?series_id=' + $(this).attr('course-id'),
+                processData: false,
+                contentType: false,
+
+
+                success: function (response) {
+                },
+                error: function (error) {
+                    popover('Error uploading your File', 'error')
+
+                },
+                complete: function () {
+                    $('.loader').css('display', 'none')
+
+                },
+
+
+            }).done(function (data) {
+                $('.loader').css('display', 'none')
+
+                popover(data.result.msg, 'success')
+
+            });
+
+            event.preventDefault();
+
+        });
+
+        
+
+    </script>
+
+    <script>
+        var obj = new WxLogin({
+            self_redirect: true,
+            id: "login_container",
+            appid: "wx67fc65e96be93d6d",
+            scope: "snsapi_login",
+            redirect_uri: "https%3A%2F%2Fwww.100chinaguide.com%2F",
+            state: "",
+            style: "",
+            href: ""
+        });
+
+    </script>
+
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+
+
+    <script>
+        var sound = null;
+        var audioSrc = '7ad5a4b99fc5275e.mp3'
+        var url = '/static/videos/' + audioSrc + '';
+
+        function playSound(url) {
+            //check if sound is null, if not stop previous sound and unload it
+            if (sound != null) {
+                sound.stop();
+                sound.unload();
+                sound = null;
+            }
+            var sound = new Howl({
+                src: [url],
+                autoplay: false,
+                loop: true,
+                volume: 0.5,
+                onend: function () {
+                    console.log('Finished!');
+                }
+            });
+            sound.once('load', function () {
+                sound.play();
+                Howler.autoUnlock = false;
+            });
+        }
+
+        $('audio').on('click', function () {
+            playSound(url)
+        })
+    </script>
+    <script>
+
+        var wavesurfer = WaveSurfer.create({
+            container: '#waveform',
+            waveColor: 'green ',
+            progressColor: 'purple',
+            scrollParent: true,
+            backgroundColor: 'none'
+        });
+
+
+    </script>
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+</body>
+</html>
+

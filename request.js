@@ -3,20 +3,12 @@ const fs = require("fs");
 
 
 const request = https.get("https://www.100chinaguide.com", res => {
-    let respBody = "";
-    res.setEncoding("UTF-8")
-    res.on('data', data =>{
-
-        console.log(data.length);
-        respBody += data.length;
-    })
+    let download = fs.createWriteStream("./test.html")
+    res.pipe(download)
     res.on('end', () => {
-        fs.writeFile("./test.html",respBody,err =>{
-            if (err)
-                throw err
             console.log('File created')
         })
-    })
+
 
 })
 request.end()
