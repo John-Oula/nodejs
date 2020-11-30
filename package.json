@@ -1,5 +1,5 @@
 {
-  "name": "nodejscourse",
+  "name": "countdown-clock",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,27 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
-    "express": "~4.16.1",
+    "express": "^4.16.4",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
-  }
+    "minimist": "^1.2.5",
+    "morgan": "~1.9.1",
+    "single-line-log": "^1.1.2",
+    "tiny-timer": "^1.5.1"
+  },
+  "main": "countdown.js",
+  "bin": {
+    "countdown": "countdown.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John-Oula/nodejs.git"
+  },
+  "author": "John Oula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/John-Oula/nodejs/issues"
+  },
+  "homepage": "https://github.com/John-Oula/nodejs#readme",
+  "description": ""
 }
